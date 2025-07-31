@@ -48,3 +48,8 @@ body{
     font-size: 20px;
 }
 
+.day-names, .days{
+   display: grid; 
+   grid-template-columns: repeat(7, 1fr);
+   text-align: center;
+}
