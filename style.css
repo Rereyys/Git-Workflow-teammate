@@ -3,3 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100vh;
+    background: #d6d4d4;
+    background: linear-gradient(
+        90deg,
+        rgba(214, 212, 212, 1) 0%,
+        rgba(152, 152, 156, 1) 35%,
+        rgba(139, 140, 140, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
