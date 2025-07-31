@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     background: #d6d4d4;
     background: linear-gradient(
@@ -22,7 +23,6 @@ body{
     width: 350px;
     height: 370px;
     padding: 20px;
-    
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -43,3 +43,8 @@ body{
     cursor: pointer;
     color: #fff;
 }
+
+.calendar header h2{
+    font-size: 20px;
+}
+
