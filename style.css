@@ -21,6 +21,8 @@ body{
 .calendar {
     width: 350px;
     height: 370px;
+    padding: 20px;
+    
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -31,4 +33,13 @@ body{
     justify-content: space-between;
     margin-bottom: 10px;
     align-items: center;
+}
+
+.calendar header button {
+    background: blue;
+    border: none;
+    padding: 13px 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
 }
